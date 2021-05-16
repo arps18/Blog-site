@@ -1,5 +1,6 @@
 import { GraphQLClient } from "graphql-request";
 import Link from "next/link";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const graphcms = new GraphQLClient(process.env.GRAPHQL_URL_ENDPOINT);
@@ -71,6 +72,7 @@ export default ({ posts }) => {
         );
       })}
     </div>
+    <Footer />
  
     </div>
    );

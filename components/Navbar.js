@@ -1,13 +1,15 @@
 const Navbar = () => {
     return (
      
-<div>
+<div >
+
+
     <nav class="bg-white dark:bg-gray-800  shadow ">
-        <div class="max-w-7xl mx-auto px-7">
+        <div class="max-w-7xl mx-auto px-7 ">
             <div class="flex items-center justify-between h-16">
                 <div class="w-full justify-between flex items-center">
                     <a class="flex-shrink-0" href="/">
-                        <img class="h-8 w-8 mx-4" src="/icons/rocket.svg" alt="Arpan's"/>
+                        <img class="mx-4 h-20" src="/assets/logo.svg" alt="Arpan's"/>
                     </a>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
@@ -41,20 +43,19 @@ const Navbar = () => {
         <div class="md:hidden">
             <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <a class="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
-                    Home
+                    Blogs
                 </a>
                 <a class="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
-                    Gallery
+                    About Me
                 </a>
                 <a class="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
-                    Content
+                    Connect
                 </a>
-                <a class="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium" href="/#">
-                    Contact
-                </a>
+               
             </div>
         </div>
     </nav>
+
 </div>
 
       );
